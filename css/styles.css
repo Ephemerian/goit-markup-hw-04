@@ -128,6 +128,9 @@ img {
 
 .header-section {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -176,9 +179,10 @@ img {
 /* Hero section */
 
 .hero-section {
-    background: linear-gradient(0deg, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/background/backgroundwork.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url("../images/background/backgroundwork.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-width: 1440px;
     margin: 0 auto;
     padding: 188px 0;
@@ -285,11 +289,11 @@ img {
 .team-card {
     background-color: var(--main-background-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-thumb {
     padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .employee-name {
@@ -321,10 +325,6 @@ img {
 .icon-team-background:hover,
 .icon-team-background:focus {
     background-color: var(--btn-hover-color);
-}
-.icon-team {
-    width: 16px;
-    height: 16px;
 }
 
 /* Customers */
