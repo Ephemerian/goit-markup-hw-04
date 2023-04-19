@@ -293,7 +293,7 @@ img {
 }
 
 .team-card-thumb {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .employee-name {
@@ -331,6 +331,9 @@ img {
 .customers-section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.customers-title {
+    line-height: 1.1;
 }
 .icon-customers-border {
     border: 1px solid;
