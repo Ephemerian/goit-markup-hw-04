@@ -176,7 +176,7 @@ img {
 /* Hero section */
 
 .hero-section {
-    background: linear-gradient(0deg, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/background/backgroundwork.jpg);
+    background: linear-gradient(0deg, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/background/backgroundwork.jpg");
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
