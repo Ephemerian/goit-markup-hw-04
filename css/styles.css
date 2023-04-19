@@ -329,7 +329,8 @@ img {
 
 /* Customers */
 .customers-section {
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .icon-customers-border {
     border: 1px solid;
