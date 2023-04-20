@@ -337,16 +337,20 @@ img {
 .customers-title {
     line-height: 1.1;
 }
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
 .icon-customers-border {
-    border: 1px solid;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     border-color: var();
-    color: var(--border-color);
-    width: 168px;
-    height: 88px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%; 
+    height: 100;
 
 }
 .icon-customers-border:hover,
@@ -354,7 +358,13 @@ img {
     border-color: var(--link-hover-color);
     color: var(--btn-hover-color);
 }
-
+.customer-icon {
+    color: var(--border-color);
+}
+.customer-icon:hover,
+.customer-icon:focus {
+    color: var(--btn-hover-color);
+}
 /* Footer */
 
 .footer {
