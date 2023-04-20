@@ -315,7 +315,7 @@ img {
 }
 .icon-team-background {
     background-color: var(--primary-brand-color);
-    border-radius: 100%;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex;
@@ -326,7 +326,9 @@ img {
 .icon-team-background:focus {
     background-color: var(--btn-hover-color);
 }
-
+.icon-color {
+    fill: var(--portfolio-btn-color);
+}
 /* Customers */
 .customers-section {
     padding-top: 120px;
@@ -398,6 +400,7 @@ img {
 .icon-footer-background:hover,
 .icon-footer-background:focus {
     background-color: var(--btn-hover-color);
+    color: var(--btn-hover-color);
 }
 .icon-footer {
     width: 24px;
