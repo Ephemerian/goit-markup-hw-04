@@ -354,16 +354,15 @@ img {
     width: 100%; 
     height: 100%;
 }
-.icon-customers-border:hover,
-.icon-customers-border:focus {
-    border-color: var(--link-hover-color);
-    color: var(--btn-hover-color);
-}
 .customer-icon {
     fill: currentColor;
 }
-.customer-icon:hover,
-.customer-icon:focus {
+.icon-customers-border:hover,
+.icon-customers-border:focus {
+    border-color: var(--link-hover-color);
+}
+.icon-customers-border:hover .customer-icon,
+.icon-customers-border:focus .customer-icon {
     fill: var(--btn-hover-color);
 }
 /* Footer */
