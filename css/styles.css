@@ -374,7 +374,7 @@ img {
 }
 .footer-container {
     display: flex;
-    align-items: baseline,
+    align-items: baseline;
 }
 .web-studio {
     margin-right: 120px;
