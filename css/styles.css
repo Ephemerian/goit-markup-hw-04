@@ -328,7 +328,7 @@ img {
     background-color: var(--btn-hover-color);
 }
 .icon-color {
-    fill: currentColor;
+    fill: var(--light-mode-color);
 }
 /* Customers */
 .customers-section {
@@ -360,7 +360,7 @@ img {
     color: var(--btn-hover-color);
 }
 .customer-icon {
-    color: var(--border-color);
+    fill: currentColor;
 }
 .customer-icon:hover,
 .customer-icon:focus {
@@ -374,6 +374,7 @@ img {
 }
 .footer-container {
     display: flex;
+    align-items: baseline,
 }
 .web-studio {
     margin-right: 120px;
