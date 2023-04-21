@@ -364,7 +364,7 @@ img {
 }
 .customer-icon:hover,
 .customer-icon:focus {
-    color: var(--btn-hover-color);
+    fill: var(--btn-hover-color);
 }
 /* Footer */
 
